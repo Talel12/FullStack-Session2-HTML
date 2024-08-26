@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sankofa+Display&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    font-size: 8px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    color: blueviolet;
+}
+
+#main-title{
+    color: blue;
+}
+
+.title{
+    color: brown;
+}
+
+#card p .rating{
+    font-size: 80px;
+}
+
+#card{
+    font-size: 32px;
+    border: 1px solid black;
+    padding: 20px;
+    /* margin: 10px; */
+    width: 300px;
+    text-align: center;
+    .test{
+        background-color: brown;
+        width: 100vw;
+        height: 20vh;
+    }
+    p{
+        font-size: 1rem;
+        margin-top: 10px;
+        text-align: right;
+        .rating{
+            color: rgb(31, 115, 49);
+            font-weight: 900;
+            font-style: italic;
+        }
+    }
+}
+
+
+.title:first-child{
+    background-color: greenyellow;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+input{
+    color: rgb(46, 255, 46);
+}
+
+form{
+    border:red solid 3px;
+    padding: 8px 16px;
+    margin: 100px 12px 36px 20px;
+}

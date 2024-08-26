@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'proxima_nova_altblack';
+    /* src: url('Mark Simonson - Proxima Nova Alt Black-webfont.eot'); */
+    src: url('Mark Simonson - Proxima Nova Alt Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .parent{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(174, 125, 50);
+    /* padding: 20px; */
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    gap:20px 10px;
+} */
+
+/* .children{
+    width:  26%;
+    height: 150px;
+    background-color: rgb(42, 20, 133);
+    border: 2px solid greenyellow;
+    color: white;
+    padding: 8px;
+} */
+
+.nav-logo{
+    text-align: center;
+}
+
+.nav-container{
+
+    width: 300px;
+    min-width: 300px;
+    padding: 20px 0px;
+    border: 1px solid orange;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.nav-menu{
+    margin-top: 50px;
+}
+
+.menu-item{
+    font-family: "proxima_nova_altblack";
+    font-weight: 200;
+    padding: 8px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.8em;
+    }
+    img{
+        width: 30px;
+    };
+}
+
+.menu-item:hover{
+    background-color: aliceblue;
+}
+
+
+main{
+    padding: 30px;
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    article{
+        border-radius: 20px;
+        overflow: hidden;
+        width: 500px;
+        height: fit-content;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.398);
+
+}
+}
+
+.main-layout{
+    display: flex;
+}
+
+
+
+.post-header{
+    /* border: 1px solid rgb(40, 2, 2); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.post-header-left{
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img{
+        padding: 2px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid rgb(183, 19, 87);
+    }
+}
+
+.main-post-image{
+    width: 100% ;
+}
+
+.icons-bar{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.icons-bar-left{
+    display: flex;
+gap: 20px;}
